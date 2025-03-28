@@ -1,4 +1,5 @@
 import Image from "next/image";
+import UpcomingMobile from "./UpcomingMobile";
 
 export default function HeroMobile() {
   return (
@@ -22,32 +23,7 @@ export default function HeroMobile() {
           </p>
         </div>
       </div>
-      <div className="pt-44">
-        <h1 className="flex justify-center text-7xl font-extrabold font-bungee tracking-tighter">
-          <span className="text-[#dd0d66] text-glow tracking-tighter font-extrabold">
-            ALLYMUSIC/
-          </span>
-          LINEUP
-        </h1>
-        <h1 className="flex justify-center text-7xl font-extrabold font-bungee tracking-tighter">
-          <span className="text-[#dd0d66] text-glow tracking-tighter font-extrabold">
-            ALLYMUSIC/
-          </span>
-          LINEUP
-        </h1>
-        <h1 className="flex justify-center text-7xl font-extrabold font-bungee tracking-tighter">
-          <span className="text-[#dd0d66] text-glow tracking-tighter font-extrabold">
-            ALLYMUSIC/
-          </span>
-          LINEUP
-        </h1>
-        <h1 className="flex justify-center text-7xl font-extrabold font-bungee tracking-tighter">
-          <span className="text-[#dd0d66] text-glow tracking-tighter font-extrabold">
-            ALLYMUSIC/
-          </span>
-          LINEUP
-        </h1>
-      </div>
+      <UpcomingMobile />
     </div>
   );
 }
