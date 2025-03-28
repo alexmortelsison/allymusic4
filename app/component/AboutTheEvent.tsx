@@ -106,7 +106,7 @@ export default function AboutTheEvent() {
           <div className="">
             <div className="border border-slate-800 bg-gray-800/20 backdrop-blur-lg rounded-4xl grid grid-cols-2 px-24 place-items-center shadow-lg shadow-slate-700 h-[600px]">
               <Image
-                src={"/dkla.png"}
+                src={"/dkla2.png"}
                 alt="d1"
                 width={1000}
                 height={1000}
@@ -121,11 +121,11 @@ export default function AboutTheEvent() {
                   </span>
                 </h1>
                 <div className="">
-                  <p className="text-4xl font-extrabold pb-4">Dionela</p>
+                  <p className="text-4xl font-extrabold pb-4">Donekla</p>
                   <p className="text-9xl font-extrabold tracking-tighter leading-20">
-                    The Grace{" "}
-                    <span className="text-pink-700 text-9xl font-extrabold tracking-tighter text-nowrap">
-                      World Tour
+                    Donekla{" "}
+                    <span className="text-pink-700 text-9xl font-extrabold tracking-tighter">
+                      In Tandem
                     </span>
                   </p>
 
