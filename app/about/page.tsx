@@ -25,8 +25,11 @@ export default function AboutPage() {
             <div></div>
           </div>
           <div className="lg:col-span-1 sm:flex flex flex-col text-center lg:text-start px-4 md:px-24">
-            <h1 className="md:text-7xl text-3xl font-extrabold whitespace-nowrap text-pink-500">
-              About Us
+            <h1 className="flex justify-center text-[46px] md:text-[108px] font-extrabold font-bungee tracking-tighter">
+              <span className="text-[#dd0d66] text-glow tracking-tighter font-extrabold">
+                ALLYMUSIC/
+              </span>
+              ABOUT
             </h1>
             <p className="lg:w-[700px] mt-4 md:text-lg flex text-center lg:text-start text-sm">
               As a leading music production company, Ally Music is dedicated to
