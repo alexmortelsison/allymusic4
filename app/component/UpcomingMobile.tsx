@@ -29,8 +29,10 @@ export default function UpcomingMobile() {
             <p className="pt-8 text-2xl md:text-4xl">June 13, 2025</p>
             <p className="md:text-2xl">New York</p>
             <p className="text-sm md:text-lg md:pt-8">
-              Dionela is bringing his soulful sound to Grand Theater, Anaheim,
-              on June 13, 2025, with special guest Jay-R!
+              Dionela&apos;s distinctive style and sound continue to make an
+              impression on the music business. His live performances highlight
+              his artistic range, ranging from lively, danceable music to moving
+              ballads.
             </p>
           </div>
           <div className=" flex justify-center items-center mt-4 md:mt-16">
