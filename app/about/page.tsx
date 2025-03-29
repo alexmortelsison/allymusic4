@@ -11,7 +11,7 @@ export default function AboutPage() {
             className="-z-50 brightness-30 object-cover"
           />
         </div>
-        <div className="lg:grid lg:grid-cols-3 max-w-[1000px] md:mt-24 mt-8">
+        <div className="lg:grid lg:grid-cols-3 max-w-[1000px] lg:mt-8 mt-16">
           <div className="col-span-2 place-items-center">
             <div className="rounded-2xl">
               <Image
@@ -19,10 +19,9 @@ export default function AboutPage() {
                 alt=""
                 width={800}
                 height={800}
-                className="md:w-80 md:h-120 object-cover rounded-xl hidden lg:block"
+                className="md:w-80 md:h-120 object-cover rounded-xl hidden lg:block pt-44"
               />
             </div>
-            <div></div>
           </div>
           <div className="lg:col-span-1 sm:flex flex flex-col text-center lg:text-start px-4 md:px-24">
             <h1 className="flex justify-center text-[46px] md:text-[108px] font-extrabold font-bungee tracking-tighter">
