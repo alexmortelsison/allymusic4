@@ -3,7 +3,13 @@ import Image from "next/image";
 export default function HeroPage() {
   return (
     <div className="lg:flex h-[820px] mx-auto flex-col text-white font-sans">
-      <Image src={"/hero.png"} alt="hero" fill className="object-cover -z-50" />
+      <Image
+        src={"/hero.png"}
+        alt="hero"
+        fill
+        className="object-cover -z-50"
+        priority
+      />
       <div className="grid grid-cols-2 max-w-7xl mx-auto mt-44 place-items-center">
         <div className="flex flex-col justify-start">
           <p className="text-[#dd0d66] text-glow tracking-tighter text-4xl font-extrabold">

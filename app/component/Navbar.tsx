@@ -54,6 +54,7 @@ export default function Navbar() {
               width={200}
               height={200}
               className="object-cover w-35"
+              priority
             />
           </Link>
           <div className="flex items-center">
